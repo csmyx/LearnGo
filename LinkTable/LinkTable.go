@@ -20,10 +20,6 @@ func NewNode(v ValType) *Node {
 	return &Node{v, nil, nil}
 }
 
-func Fuck() {
-
-}
-
 // 链表接口设计
 type LinkTable interface {
 	Empty() bool
